@@ -1,11 +1,5 @@
-// do not try to play with comments
 #include "nameconvertormainwindow.h"
 #include "ui_nameconvertormainwindow.h"
-
-
-// nameconvertormainwindow.cpp
-
-
 
 nameconvertorMainWindow::nameconvertorMainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -13,14 +7,46 @@ nameconvertorMainWindow::nameconvertorMainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    // Connect the signal to the slot for textChanged
-   // connect(ui->text_form, &QPlainTextEdit::textChanged, this, &nameconvertorMainWindow::onPlainTextEditTextChangedLength);
+    // Apply the style sheet to the QMainWindow
+    QString mainStyle = "QMainWindow {"
+                        "    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #87CEEB, stop:1 #f0f0f0);"
+                        "    border: 1px solid #87CEEB;"
+                        "}";
+
+    this->setStyleSheet(mainStyle);
+
+    // Apply the style sheet to the QPushButton
+    QString buttonStyle = "QPushButton {"
+                          "    background-color: #4CAF50;"
+                          "    color: white;"
+                          "    padding: 10px 20px;"
+                          "    border: none;"
+                          "    border-radius: 5px;"
+                          "}"
+                          "QPushButton:hover {"
+                          "    background-color: #45A049;"
+                          "}"
+                          "QPushButton:focus {"
+                          "    outline: none;"
+                          "}";
+
+    ui->convertButton->setStyleSheet(buttonStyle);
+
+    // Apply the style sheet to the QLabel
+    QString labelStyle = "QLabel#label_ASCIIResult {"
+                         "    background-color: #ffffff;"
+                         "    color: #333333;"
+                         "    padding: 10px;"
+                         "    border: 1px solid #4CAF50;"
+                         "    border-radius: 5px;"
+                         "}";
+
+    ui->label_ASCIIResult->setStyleSheet(labelStyle);
+
+    // Connect signals and slots
     connect(ui->lineEdit_name, &QLineEdit::textChanged, this, &nameconvertorMainWindow::onConvertNameToASCII);
     connect(ui->convertButton, &QPushButton::clicked, this, &nameconvertorMainWindow::onConvertButtonClicked);
-
-    // Other setup code
 }
-
 void nameconvertorMainWindow::onPlainTextEditTextChangedLength() {
     // Your implementation here
 }
