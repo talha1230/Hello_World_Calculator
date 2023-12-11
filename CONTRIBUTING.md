@@ -1,5 +1,4 @@
-
-"# Contributing to Hello_World_Calculator 🚀
+# Contributing to Hello_World_Calculator 🚀
 
 Thank you for considering contributing to Hello_World_Calculator! Your involvement is essential to making this project better for everyone.
 
