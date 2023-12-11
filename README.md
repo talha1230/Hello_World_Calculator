@@ -13,8 +13,32 @@ Welcome to the Hello_World_Calculator, a sophisticated C++ calculator applicatio
 - **Advanced Mathematical Functions:** In addition to fundamental arithmetic, explore trigonometry, square root calculations, modular arithmetic, and more.
 
 - **Unit Converter and ASCII Converter:** Enhance utility with a Unit Converter for practical conversions and an ASCII Converter for personalized security.
+## Requirements ✅
+
+Ensure your development environment meets the following prerequisites for a successful Hello_World_Calculator project setup:
 
 ## How to Use 🛠️
+
+1. **Qt Creator or QMake Build System Installed:** 
+   - Qt Creator is recommended for its integrated development environment (IDE) with internal build tools.
+   - Alternatively, QMake build system can be used.
+
+2. **Qt SDK Installed:**
+   - Download and install the Qt SDK from [qt.io](https://www.qt.io/download).
+   - Opt for the more stable offline Open Source version instead of online installers.
+
+3. **Compiler Configuration:**
+   - Select a suitable MinGW compiler during the installation process as the installer does not include a compiler by default.
+
+4. **Installation of Qt Creator:**
+   - It's highly recommended to install Qt Creator, which serves as both an IDE and includes internal build tools.
+
+5. **CMake Consideration:**
+   - The project does not use CMake; instead, QMake is bundled with Qt Creator and is the preferred build system.
+
+By satisfying these requirements, you'll be well-equipped to embark on a smooth and efficient development journey with the Hello_World_Calculator project.
+
+Feel free to reach out if you encounter any issues or need further assistance! 🚀
 
 1. **Clone the Repository:**
    ```bash
