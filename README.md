@@ -22,6 +22,7 @@ Ensure your development environment meets the following prerequisites for a succ
 1. **Qt Creator or QMake Build System Installed:** 
    - Qt Creator is recommended for its integrated development environment (IDE) with internal build tools.
    - Alternatively, QMake build system can be used.
+   - Download the repo; use Qt creator; just open the **Qt Project file (.pro)**, Then Click on **Config Kit**
 
 2. **Qt SDK Installed:**
    - Download and install the Qt SDK from [qt.io](https://www.qt.io/download).
