@@ -57,7 +57,8 @@ Feel free to reach out if you encounter any issues or need further assistance! 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/Hello_World_Calculator.git
+   git clone https://github.com/talha1230/Hello_World_Calculator
+  
 ## Contribution Guidelines ü§ù
 If you'd like to contribute to the project, please follow the contribution guidelines.
 
