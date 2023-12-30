@@ -15,7 +15,7 @@ Welcome to the Hello_World_Calculator, a sophisticated C++ calculator applicatio
 - **Unit Converter and ASCII Converter:** Enhance utility with a Unit Converter for practical conversions and an ASCII Converter for personalized security.
 - 
 ## Screenshot
--   **Main Window **
+-   **Main Window**
 -  ![image](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/5d92c1a9-cbcb-4f81-9165-666a4719c55a)
 
 -   **Dynamic Themes** 😍✨
