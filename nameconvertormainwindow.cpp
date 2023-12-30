@@ -34,23 +34,23 @@ nameconvertorMainWindow::nameconvertorMainWindow(QWidget *parent) :
     // Apply the style sheet to the QLineEdit
     QString lineEditStyle = "QLineEdit {"
                             "    background-color: #ecf0f1;" // Light gray background
-                            "    color: ##2c3e50;" // Dark blue text
-                            "    border: none;" // No border
-                            "    border-radius: 5px;" // Rounded corners
+                            "    color: #2c3e50;" // Dark blue text
+                            "    border: 2px solid #2c3e50;" // Dark blue border
+                            "    border-radius: 10px;" // Rounded corners
                             "    padding: 5px;" // Some padding
                             "}";
 
     ui->lineEdit_name->setStyleSheet(lineEditStyle);
 
+
     // Apply the style sheet to the QLabel
     QString labelStyle = "QLabel {"
                          "    background-color: #ecf0f1;" // Light gray background
-                         "    color: ##2c3e50;" // Dark blue text
-                         "    border: none;" // No border
-                         "    border-radius: 5px;" // Rounded corners
+                         "    color: #2c3e50;" // Dark blue text
+                         "    border: 2px solid #2c3e50;" // Dark blue border
+                         "    border-radius: 10px;" // Rounded corners
                          "    padding: 5px;" // Some padding
                          "}";
-
 
     ui->label_ASCIIResult->setStyleSheet(labelStyle);
 
