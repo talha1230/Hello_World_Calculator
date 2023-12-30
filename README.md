@@ -16,16 +16,16 @@ Welcome to the Hello_World_Calculator, a sophisticated C++ calculator applicatio
 - 
 ## Screenshot
 -   **Main Window**
-   ![image](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/5d92c1a9-cbcb-4f81-9165-666a4719c55a)
+ -   ![image](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/5d92c1a9-cbcb-4f81-9165-666a4719c55a)
 
 -   **Dynamic Themes** 😍✨
-    ![image](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/7d2ca113-0d55-48e5-bdac-38579e82a088)
+  -   ![image](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/7d2ca113-0d55-48e5-bdac-38579e82a088)
 
 -   **Name to ASCII**👽💻
-   ![image](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/0bb46143-687a-4364-a739-78f9bf2f6b1b)
+  -  ![image](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/0bb46143-687a-4364-a739-78f9bf2f6b1b)
 
 -   **Unit Convertor** 🌡⚡
-   ![image](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/10bed4f1-284d-4c0c-a955-d6642742ebfb)
+ -   ![image](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/10bed4f1-284d-4c0c-a955-d6642742ebfb)
 
 ## Requirements ✅
 
