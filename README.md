@@ -1,12 +1,12 @@
-## Hello_World_Calculator 🚀
+# Hello_World_Calculator 🚀
 
 ## Overview
 
-Welcome to the Hello_World_Calculator, a sophisticated C++ calculator application crafted by Our Team. This project goes beyond the conventional, offering a seamless blend of functionality and elegance in the world of numerical computation.
+Welcome to Hello_World_Calculator, an elegant C++ calculator application crafted by our talented team. This project goes beyond the ordinary, offering a seamless blend of functionality and sophistication in the realm of numerical computation.
 
 ## Table of Contents
 - [Features](#features)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 - [Requirements](#requirements)
 - [How to Use](#how-to-use)
 - [Contribution Guidelines](#contribution-guidelines)
@@ -14,34 +14,37 @@ Welcome to the Hello_World_Calculator, a sophisticated C++ calculator applicatio
 
 ## Features 🌟
 
-- **Object-Oriented Design:** Built on the foundation of C++ classes, providing a structured and modular approach to arithmetic operations.
-  
-- **Intuitive User Interface:** A user-friendly interface for effortless interaction, allowing users to choose from basic arithmetic operations and advanced features.
+- **Object-Oriented Design:** Built with C++ classes, providing a structured and modular approach to arithmetic operations.
 
-- **Advanced Mathematical Functions:** In addition to fundamental arithmetic, explore trigonometry, square root calculations, modular arithmetic, and more.
+- **Intuitive User Interface:** User-friendly design for effortless interaction, offering basic arithmetic operations and advanced features.
+
+- **Advanced Mathematical Functions:** Explore trigonometry, square root calculations, modular arithmetic, and more.
 
 - **Unit Converter and ASCII Converter:** Enhance utility with a Unit Converter for practical conversions and an ASCII Converter for personalized security.
 
-## Screenshot
-- **Main Window**
-  ![Main Window](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/5d92c1a9-cbcb-4f81-9165-666a4719c55a)
+- **Currency Converter:** Facilitate practical currency conversions seamlessly.
 
-- **Dynamic Themes** 😍✨
-  ![Dynamic Themes](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/7d2ca113-0d55-48e5-bdac-38579e82a088)
+## Screenshots
+### Main Window
+![Main Window](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/5d92c1a9-cbcb-4f81-9165-666a4719c55a)
 
-- **Name to ASCII**👽💻
-  ![Name to ASCII](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/0bb46143-687a-4364-a739-78f9bf2f6b1b)
+### Dynamic Themes 😍✨
+![Dynamic Themes](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/7d2ca113-0d55-48e5-bdac-38579e82a088)
 
-- **Unit Convertor** 🌡⚡
-  ![Unit Convertor](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/10bed4f1-284d-4c0c-a955-d6642742ebfb)
+### Name to ASCII 👽💻
+![Name to ASCII](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/0bb46143-687a-4364-a739-78f9bf2f6b1b)
+
+### Unit Converter 🌡⚡
+![Unit Converter](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/10bed4f1-284d-4c0c-a955-d6642742ebfb)
+
+### Currency Converter 🌡⚡
+![Currency Converter](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/c1647ef1-a102-42ac-8645-340077fad569)
 
 ## Requirements ✅
 
 Ensure your development environment meets the following prerequisites for a successful Hello_World_Calculator project setup:
 
-## How to Use 🛠️
-
-1. **Qt Creator or QMake Build System Installed:** 
+1. **Qt Creator or QMake Build System Installed:** 
    - Use Qt Creator for its integrated development environment (IDE) with internal build tools.
    - Alternatively, use QMake as the build system. Download the repo, open the **Qt Project file (.pro)**, and click on **Config Kit**.
 
@@ -62,9 +65,12 @@ By satisfying these requirements, you'll be well-equipped to embark on a smooth 
 
 Feel free to reach out if you encounter any issues or need further assistance! 🚀
 
+## How to Use 🛠️
+
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/talha1230/Hello_World_Calculator
+
   
 ## Contribution Guidelines 🤝
 If you'd like to contribute to the project, please follow the contribution guidelines.
