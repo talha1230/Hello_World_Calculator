@@ -21,6 +21,7 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWin
 
     this->ppage2=new UnitConvertorMainWindow; //Make it real
     this->ppage3=new nameconvertorMainWindow; // by T
+    this->ppage4=new CurrencyConverterMainWindow; // Currency Convertor
 
     connect(ui->Unitconvert,&QPushButton::clicked,this,[this](){
 
@@ -33,10 +34,16 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWin
         this->hide();
         this->ppage3->show();
     });
+    connect(ui->currencyconvert,&QPushButton::clicked,this,[this](){
+
+        this->hide();
+        this->ppage4->show();
+    });
 
     connect(this->ppage2,&UnitConvertorMainWindow::back,this,[this](){
         this->ppage2->hide();
         this->show();
+
     });
 //
 

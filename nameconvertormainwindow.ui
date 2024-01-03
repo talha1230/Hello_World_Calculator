@@ -6,21 +6,48 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>453</width>
+    <height>551</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>75</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Name to ASCII</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="convertButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>160</y>
-      <width>80</width>
-      <height>24</height>
+      <x>150</x>
+      <y>150</y>
+      <width>121</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -28,48 +55,69 @@
     </property>
    </widget>
    <widget class="QPushButton" name="backButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>450</y>
-      <width>80</width>
-      <height>24</height>
+      <x>340</x>
+      <y>440</y>
+      <width>91</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>back</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="label_ASCIIResult">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>30</y>
-      <width>481</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="verticalScrollBarPolicy">
-     <enum>Qt::ScrollBarAlwaysOff</enum>
-    </property>
-    <property name="horizontalScrollBarPolicy">
-     <enum>Qt::ScrollBarAlwaysOff</enum>
-    </property>
-    <property name="plainText">
-     <string>Output:</string>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEdit_name">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>100</y>
+      <x>70</x>
+      <y>80</y>
       <width>291</width>
       <height>41</height>
      </rect>
     </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
     <property name="text">
-     <string>Input</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="label_ASCIIResult">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>451</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="tabChangesFocus">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
@@ -78,12 +126,30 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>453</width>
      <height>22</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFIle">
+    <property name="title">
+     <string>FIle</string>
+    </property>
+    <widget class="QMenu" name="menuTheme">
+     <property name="title">
+      <string>Theme</string>
+     </property>
+     <addaction name="actiontheme2_png"/>
+    </widget>
+    <addaction name="menuTheme"/>
+   </widget>
+   <addaction name="menuFIle"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actiontheme2_png">
+   <property name="text">
+    <string>theme2.png</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
