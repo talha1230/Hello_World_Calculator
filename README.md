@@ -22,7 +22,7 @@ Welcome to Hello_World_Calculator, an elegant C++ calculator application crafted
 
 - **Unit Converter and ASCII Converter:** Enhance utility with a Unit Converter for practical conversions and an ASCII Converter for personalized security.
 
-- **Currency Converter:** Facilitate practical currency conversions seamlessly.
+- **Currency Converter:** Facilitate practical currency conversions seamlessly. still in development; (USD to PKR) is intergrated yet.
 
 ## Screenshots
 ### Main Window
@@ -37,7 +37,7 @@ Welcome to Hello_World_Calculator, an elegant C++ calculator application crafted
 ### Unit Converter 🌡⚡
 ![Unit Converter](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/10bed4f1-284d-4c0c-a955-d6642742ebfb)
 
-### Currency Converter 🌡⚡
+### Currency Converter 💲💵
 ![Currency Converter](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/c1647ef1-a102-42ac-8645-340077fad569)
 
 ## Requirements ✅
