@@ -5,14 +5,15 @@
 Welcome to Hello_World_Calculator, an elegant C++ calculator application crafted by our talented team. This project goes beyond the ordinary, offering a seamless blend of functionality and sophistication in the realm of numerical computation.
 
 ## Table of Contents
-- [Features](#Features✨)
+- [Features](#Features)
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
 - [How to Use](#how-to-use)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Acknowledgments](#acknowledgments)
 
-## Features✨
+## Features
+  ✨
 
 - **Object-Oriented Design:** Built with C++ classes, providing a structured and modular approach to arithmetic operations.
 
@@ -40,7 +41,7 @@ Welcome to Hello_World_Calculator, an elegant C++ calculator application crafted
 ### Currency Converter 💲💵
 ![Currency Converter](https://github.com/talha1230/Hello_World_Calculator/assets/121675123/c1647ef1-a102-42ac-8645-340077fad569)
 
-## Requirements ✅
+## Requirements
 
 Ensure your development environment meets the following prerequisites for a successful Hello_World_Calculator project setup:
 
@@ -65,15 +66,15 @@ By satisfying these requirements, you'll be well-equipped to embark on a smooth 
 
 Feel free to reach out if you encounter any issues or need further assistance! 🚀
 
-## How to Use 🛠️
+## How to Use || 🛠️
 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/talha1230/Hello_World_Calculator
 
   
-## Contribution Guidelines 🤝
-If you'd like to contribute to the project, please follow the contribution guidelines.
+## Contribution Guidelines 
+If you'd like to contribute to the project, please follow the contribution guidelines.🤝
 
-## Acknowledgments 🙌
-Special thanks to the open-source community and contributors who have helped shape Hello_World_Calculator.
+## Acknowledgments 
+Special thanks to the open-source community and contributors who have helped shape Hello_World_Calculator.🙌
