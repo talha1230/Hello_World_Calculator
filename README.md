@@ -5,14 +5,14 @@
 Welcome to Hello_World_Calculator, an elegant C++ calculator application crafted by our talented team. This project goes beyond the ordinary, offering a seamless blend of functionality and sophistication in the realm of numerical computation.
 
 ## Table of Contents
-- [Features](#features)
+- [Features](#Features✨)
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
 - [How to Use](#how-to-use)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Acknowledgments](#acknowledgments)
 
-## Features
+## Features✨
 
 - **Object-Oriented Design:** Built with C++ classes, providing a structured and modular approach to arithmetic operations.
 
