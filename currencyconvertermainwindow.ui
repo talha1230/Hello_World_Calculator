@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTextEdit" name="myr">
+   <widget class="QTextEdit" name="uservalue">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -27,8 +27,8 @@
    <widget class="QPushButton" name="currencyButton">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>130</y>
+      <x>310</x>
+      <y>140</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -37,40 +37,17 @@
      <string>Convert</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="pkr">
+   <widget class="QTextEdit" name="useroutput">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>200</x>
       <y>230</y>
       <width>351</width>
       <height>51</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>60</y>
-      <width>51</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>USD</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>250</y>
-      <width>51</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PKR</string>
+    <property name="acceptRichText">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
@@ -80,7 +57,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
