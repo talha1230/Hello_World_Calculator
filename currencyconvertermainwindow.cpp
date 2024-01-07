@@ -76,15 +76,15 @@ void CurrencyConverterMainWindow::onManagerFinished(QNetworkReply* reply)
         return;
     }
 
-    QJsonObject conversionRates = jsonObject["conversion_rates"].toObject();
+    QJsonObject conversionRatesObject = jsonObject["conversion_rates"].toObject();
 
-    if (!conversionRates.contains("MYR")) {  // Check if the target currency exists in the conversion rates
+    if (!conversionRatesObject.contains("MYR")) {  // Check if the target currency exists in the conversion rates
         qDebug() << "Target currency not found in conversion rates";
         QMessageBox::critical(this, "Error", "Target currency not found in conversion rates.");
         return;
     }
 
-    conversionRate = conversionRates["MYR"].toDouble();
+    conversionRate = conversionRatesObject["MYR"].toDouble();
 }
 
 void CurrencyConverterMainWindow::convertCurrency()
