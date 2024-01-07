@@ -27,6 +27,7 @@ public slots:
     void onCurrencySelectionChanged();
 
 
+
 };
 
 #endif // CURRENCYCONVERTERMAINWINDOW_H
