@@ -24,6 +24,7 @@ private:
 public slots:
     void onManagerFinished(QNetworkReply *reply);
     void convertCurrency();
+    void onCurrencySelectionChanged();
 
 
 };

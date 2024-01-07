@@ -114,7 +114,7 @@ MainWindow::~MainWindow()
 void MainWindow::digit_pressed()
 {
     QPushButton * button = (QPushButton *)sender();
-    double labelnumber;
+    double labelnumber = 0.0;
 
     if((ui->pushButton_add->isChecked() || ui->pushButton_divide->isChecked() || ui->pushButton_minus->isChecked() || ui->pushButton_multiply->isChecked() || ui->pushButton_Power->isChecked() || ui->pushButton_mod->isChecked()) && (!user_is_typing_secondNumber))
     {
