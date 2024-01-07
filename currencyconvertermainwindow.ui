@@ -38,6 +38,9 @@
     </property>
    </widget>
    <widget class="QTextEdit" name="useroutput">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>200</x>
