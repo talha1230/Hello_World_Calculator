@@ -43,7 +43,7 @@ CurrencyConverterMainWindow::CurrencyConverterMainWindow(QWidget *parent) :
 
     // Initialize and populate the currency combo box
     QStringList currencyList = {"USD", "EUR", "GBP", "JPY"};  // Add more currencies as needed
-    QStringList desiredCurrency = {"MYR", "PKR"};
+    QStringList desiredCurrency = {"MYR"};
     ui->currencyComboBox->addItems(currencyList);
     ui->desiredCurrencyComboBox->addItems(desiredCurrency);
 
