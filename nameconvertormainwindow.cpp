@@ -65,6 +65,12 @@ void nameconvertorMainWindow::onPlainTextEditTextChangedLength() {
     // Your implementation here
 }
 
+/**
+ * @brief Converts the input name to ASCII and displays the result.
+ * 
+ * This function retrieves the input value from the QLineEdit, converts each character of the name to its corresponding ASCII value,
+ * and prepares a final message to display the ASCII result. The result is then set as the text of the QLabel.
+ */
 void nameconvertorMainWindow::onConvertNameToASCII() {
     // Get the input value from the QLineEdit
     QString name = ui->lineEdit_name->text();
