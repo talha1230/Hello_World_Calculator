@@ -101,6 +101,10 @@ UnitConvertorMainWindow::UnitConvertorMainWindow(QWidget *parent) :
     QLabel *label_16;
 
 
+/**
+ * @brief Slot function called when the text in plainTextEdit_2 is changed.
+ *        It converts the input value to different units and updates the corresponding labels.
+ */
 void UnitConvertorMainWindow::onPlainTextEditTextChangedLength() {
     // Get the input value from plainTextEdit_2
     QString inputValue = plainTextEdit_2->toPlainText();
@@ -112,7 +116,15 @@ void UnitConvertorMainWindow::onPlainTextEditTextChangedLength() {
     if (!isNumber) {
         QMessageBox::critical(this, "Error", "Please enter a valid number");
     }
+ 
+{
+case /* constant-expression */:
+    /* code */
+    break;
 
+default:
+    break;
+}
     // Convert the input to different units
     double valueInMeter = value / 100.0;         // Centimeter to Meter
     double valueInKilometer = value / 100000.0;  // Centimeter to Kilometer
@@ -138,6 +150,10 @@ void UnitConvertorMainWindow::onPlainTextEditTextChangedLength() {
     QLabel *label_29;
     QLabel *label_28;
 
+/**
+ * @brief Slot function called when the text in plainTextEdit_2 is changed.
+ *        It converts the input value to various square units and updates the corresponding labels.
+ */
 void UnitConvertorMainWindow::onPlainTextEditTextChangedArea() {
     // Get the input value from plainTextEdit_2
     QString inputValue = plainTextEdit_4->toPlainText();
