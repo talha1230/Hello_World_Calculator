@@ -16,18 +16,23 @@ class nameconvertorMainWindow : public QMainWindow
 public:
     explicit nameconvertorMainWindow(QWidget *parent = nullptr);
     ~nameconvertorMainWindow();
-//signals:
- //   void backButton();
+
+    bool eventFilter(QObject *obj, QEvent *event) override;
+
+signals:
+    void backButton();
 
 private:
     Ui::nameconvertorMainWindow *ui;
     QPlainTextEdit *plainTextEdit_4;
+
 private slots:
     void onPlainTextEditTextChangedLength();
    // void onPlainTextEditTextChangedArea();
     void onConvertButtonClicked();  // Declaration of the function
     void onConvertNameToASCII();  // Declaration of the function
     //void onBackButtonClicked();
+    void cleartext();
 
 
 };

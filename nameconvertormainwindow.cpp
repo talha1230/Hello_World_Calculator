@@ -1,5 +1,11 @@
 #include "nameconvertormainwindow.h"
 #include "ui_nameconvertormainwindow.h"
+#include <QLineEdit>
+#include <QMouseEvent>
+#include <QObject>
+#include <QEvent>
+#include <QMessageBox>
+#include <QRegularExpression>
 
 nameconvertorMainWindow::nameconvertorMainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -42,6 +48,9 @@ nameconvertorMainWindow::nameconvertorMainWindow(QWidget *parent) :
 
     ui->lineEdit_name->setStyleSheet(lineEditStyle);
 
+    // Assuming this code is inside the constructor or initialization function
+    ui->lineEdit_name->installEventFilter(this);
+
 
     // Apply the style sheet to the QLabel
     QString labelStyle = "QLabel {"
@@ -59,34 +68,67 @@ nameconvertorMainWindow::nameconvertorMainWindow(QWidget *parent) :
     // Connect signals and slots
     connect(ui->lineEdit_name, &QLineEdit::returnPressed, this, &nameconvertorMainWindow::onConvertButtonClicked);
     connect(ui->convertButton, &QPushButton::clicked, this, &nameconvertorMainWindow::onConvertButtonClicked);
+    connect(ui->backButton,&QPushButton::clicked,[=](){
+        emit this->backButton();
+    });
+}
+
+// ...
+
+bool nameconvertorMainWindow::eventFilter(QObject *obj, QEvent *event) {
+    if (obj == ui->lineEdit_name && event->type() == QEvent::MouseButtonPress) {
+        // Handle the mouse press event
+        ui->lineEdit_name->clear();
+        return true; // Event handled
+    }
+
+    // Call the base class implementation for other events
+    return QMainWindow::eventFilter(obj, event);
+}
+
+void nameconvertorMainWindow::cleartext() {
+    ui->lineEdit_name->clear();
 }
 
 void nameconvertorMainWindow::onPlainTextEditTextChangedLength() {
     // Your implementation here
 }
 
-/**
- * @brief Converts the input name to ASCII and displays the result.
- * 
- * This function retrieves the input value from the QLineEdit, converts each character of the name to its corresponding ASCII value,
- * and prepares a final message to display the ASCII result. The result is then set as the text of the QLabel.
- */
 void nameconvertorMainWindow::onConvertNameToASCII() {
     // Get the input value from the QLineEdit
     QString name = ui->lineEdit_name->text();
 
-    // Convert the name to ASCII
-    QString asciiResult;
-    for (QChar character : name) {
-        asciiResult += QString::number(character.toLatin1()) + " ";
-    }
+    int maxLength = 30;  // Adjust the value as needed
 
-    // Prepare the final message to display
-    QString finalMessage = "" + asciiResult.trimmed();
+    // Check if the input exceeds the maximum length
+        if (name.length() > maxLength) {
 
-    // Clear the label and set the new text
-    ui->label_ASCIIResult->clear();
-    ui->label_ASCIIResult->setPlainText(finalMessage);
+            QMessageBox::critical(this, "Error", "Your name is too long ye sayang:)");
+            return;
+
+            } else if (name.length() <= maxLength && name.contains(QRegularExpression("^[a-zA-Z ]+$"))) {
+                // Enable input if it's within the maximum length
+                ui->lineEdit_name->setReadOnly(false);
+
+                // Convert the name to ASCII
+                QString asciiResult;
+                for (QChar character : name) {
+                asciiResult += QString::number(character.toLatin1()) + " ";
+            }
+
+            // Prepare the final message to display
+            QString finalMessage = "" + asciiResult.trimmed();
+
+            // Clear the label and set the new text
+            ui->label_ASCIIResult->clear();
+            ui->label_ASCIIResult->setPlainText(finalMessage);
+
+            } else if (name.contains(QRegularExpression("[0-9!@#$%^&*()_+{}|:\"<>?`\\-=\\[\\];',./\\\\]"))){
+
+                QMessageBox::critical(this, "Error", "Where got a person's name is number? Jangan main-main ye pandai:)");
+                return;
+
+            }
 }
 
 void nameconvertorMainWindow::onConvertButtonClicked() {

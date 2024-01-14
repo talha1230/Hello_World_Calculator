@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>459</width>
+    <height>520</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,19 +17,19 @@
    <widget class="QTextEdit" name="uservalue">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>50</y>
-      <width>351</width>
-      <height>51</height>
+      <x>140</x>
+      <y>70</y>
+      <width>231</width>
+      <height>41</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="currencyButton">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>140</y>
-      <width>101</width>
+      <x>210</x>
+      <y>170</y>
+      <width>81</width>
       <height>41</height>
      </rect>
     </property>
@@ -38,28 +38,28 @@
     </property>
    </widget>
    <widget class="QTextEdit" name="useroutput">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>230</y>
-      <width>351</width>
-      <height>51</height>
+      <x>140</x>
+      <y>260</y>
+      <width>231</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
     <property name="acceptRichText">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="backbutton">
+   <widget class="QPushButton" name="back2">
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>480</y>
-      <width>80</width>
-      <height>24</height>
+      <x>210</x>
+      <y>350</y>
+      <width>81</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
@@ -69,18 +69,18 @@
    <widget class="QComboBox" name="currencyComboBox">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>60</y>
+      <x>40</x>
+      <y>70</y>
       <width>72</width>
       <height>24</height>
      </rect>
     </property>
    </widget>
-   <widget class="QComboBox" name="desiredCurrencyComboBox">
+   <widget class="QComboBox" name="currencyComboBox_2">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>250</y>
+      <x>40</x>
+      <y>260</y>
       <width>72</width>
       <height>24</height>
      </rect>
@@ -92,7 +92,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>459</width>
      <height>21</height>
     </rect>
    </property>

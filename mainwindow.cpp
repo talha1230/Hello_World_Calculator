@@ -8,6 +8,9 @@
 #include <QStackedWidget>
 #include <QVBoxLayout>
 #include <QLabel>
+#include "nameconvertormainwindow.h"
+#include "currencyconvertermainwindow.h"
+
 double firstNum;
 double secondNum;
 bool user_is_typing_secondNumber=false;
@@ -44,6 +47,18 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWin
         this->ppage2->hide();
         this->show();
 
+    });
+
+    connect(this->ppage3,&nameconvertorMainWindow::backButton,this,[this](){
+
+        this->ppage3->hide();
+        this->show();
+    });
+
+    connect(this->ppage4,&CurrencyConverterMainWindow::back2,this,[this](){
+
+        this->ppage4->hide();
+        this->show();
     });
 //
 

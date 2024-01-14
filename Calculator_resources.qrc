@@ -15,5 +15,6 @@
         <file>Images/Temperature.png</file>
         <file>Images/Volume.png</file>
         <file>Images/Weight.png</file>
+        <file>Images/Time.png</file>
     </qresource>
 </RCC>
