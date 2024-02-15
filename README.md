@@ -1,4 +1,7 @@
 # Hello_World_Calculator 🚀
+![License](https://img.shields.io/badge/license-MIT-green)
+![Stars](https://img.shields.io/github/stars/talha1230/Hello_World_Calculator)
+![Forks](https://img.shields.io/github/forks/talha1230/Hello_World_Calculator)
 
 ## Overview
 
