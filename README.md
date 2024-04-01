@@ -79,6 +79,8 @@ Feel free to reach out if you encounter any issues or need further assistance! �
 ## Contribution Guidelines 
 If you'd like to contribute to the project, please follow the contribution guidelines.🤝
 
+This project is tested with BrowserStack
+
 ## Acknowledgments 
 Special thanks to the open-source community and contributors who have helped shape Hello_World_Calculator.🙌
 - Copyright 2020 © <a href="https://github.com/talha1230" target="_blank">Talha Khan</a>.
